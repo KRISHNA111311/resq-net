@@ -1,0 +1,22 @@
+/* Minimal reset and custom scrollbar */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #050811;
+  color: #f8fafc;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #080d1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
